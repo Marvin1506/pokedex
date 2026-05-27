@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="icon" type="image/png" href="img/pokeball.png">
+    <link rel="shortcut icon" href="img/pokeball.png">
+    <script src="template.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body" id="body" onload="init()">
+    <img class="pokemon-ball-logo" src="img/pokeball.png" alt="pokeball">
+    <h1 class="pokedex-headline">Pokedex</h1>
+
+    <header>
+        <div class="search-wrapper">
+            <div class="search-wrap">
+                <input onkeyup="searchPokemonByName()" type="text" id="search-input" class="search-input body3-fonts" placeholder="Search Pokemon by Name">
+            </div>
+        </div>
+    </header>
+    
+    <div onclick="disableDisplayPokemonsBig()" id="big-card-background-container" class="big-card-background-container display-none"></div>
+    <div class="big-card-container display-none" id="big-card-container">
+        <div id="big-card-container-card-head" class="big-card-container-card-head"></div>
+        <div id="big-card-container-card-body" class="big-card-container-card-body">
+            <div id="big-card-headline-wrap" class="big-card-headline-wrap"></div>
+            <div id="big-card-details-div" class="big-card-details-div"></div>
+        </div>
+    </div>
+
+    <div id="list-wrapper" class="list-wrapper"></div>
+    <button onclick="fetchMorePokemonData()" class="fetch-more-pokemon-button" id="fetch-more-pokemon-button">Load more Pokemon</button>
+    <div id="arrow-forward-backward-div" class="arrow-forward-backward-div display-none"></div>
+    <div class="loader-container display-none" id="loader-container"></div>
+
+    <div class="not-found-message display-none" id="not-found-message">Pokemon not found</div>
+    <div class="min-screen-div display-none">
+        <div class="min-screen-div-alert">
+            <p>Please adjust your screen resolution. This site requires a minimum width of 420px.</p>
+        </div>
+    </div>
+    <div class="max-screen-div">
+        <div class="max-screen-div-alert">
+            <p>Please adjust your screen resolution. This site requires a smaller width than 2560px.</p>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <div class="impressum-div">
+        <a class="impressum" href="https://pokeapi.co/about">
+            <p class="impressum">Impressum</p>
+        </a>
+    </div>
+</footer>
+
+</html>
