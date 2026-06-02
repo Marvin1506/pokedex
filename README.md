@@ -40,4 +40,5 @@ https://marvin-mutwil.developerakademie.net/A-Developer-Akademie-Projekte/Pokede
 
 ##Preview
 <img width="2511" height="1306" alt="Screenshot 2026-06-02 234444" src="https://github.com/user-attachments/assets/75ee9c26-a5bb-42b1-b4d6-4fc47bf554a0" />
+
 https://github.com/user-attachments/assets/02817c85-3889-4f1c-9121-ad06cd1c6ec3
