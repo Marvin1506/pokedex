@@ -36,7 +36,7 @@ Visualizing data through dynamic stat bars
 
 ## Live Demo
 
-https://marvin-mutwil.developerakademie.net/A-Developer-Akademie-Projekte/Pokedex/index.html
+https://marvin-mutwil.developerakademie.net/A-Developer-Akademie-Projekte/pokedex/Pokedex/index.html
 
 ## Preview
 <img width="2511" height="1306" alt="Screenshot 2026-06-02 234444" src="https://github.com/user-attachments/assets/75ee9c26-a5bb-42b1-b4d6-4fc47bf554a0" />
